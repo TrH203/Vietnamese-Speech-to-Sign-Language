@@ -1,45 +1,45 @@
-# Speech to Sign Language
+# Vietnamesss Speech to Sign Language
 
-## Mô tả
+[![Development Status](https://img.shields.io/badge/status-in%20development-orange)]()
+[![Version](https://img.shields.io/badge/version-0.1.0-blue)]()
+[![Dependencies](https://img.shields.io/badge/dependencies-up%20to%20date-brightgreen)](https://github.com/TrH203/Vietnamese-Speech-to-Sign-Language/network/dependencies)
+[![Contributors](https://img.shields.io/github/contributors/TrH203/Vietnamese-Speech-to-Sign-Language)](https://github.com/TrH203/Vietnamese-Speech-to-Sign-Language/graphs/contributors)
+![Python Version](https://img.shields.io/badge/python-3.10.12-blue)
 
-Mô tả ngắn gọn về dự án của bạn. Giới thiệu về mục tiêu, chức năng chính và tầm quan trọng của dự án.
+![Project Logo](./resource/logo.png)
 
-## Bảng Mục Lục
+## Describe
 
-- [Giới Thiệu](#giới-thiệu)
-- [Cài Đặt](#cài-đặt)
-- [Sử Dụng](#sử-dụng)
-- [Tính Năng](#tính-năng)
-- [Đóng Góp](#đóng-góp)
-- [Giấy Phép](#giấy-phép)
-- [Liên Hệ](#liên-hệ)
+**Vietnamese Speech to Sign Language** was born to help deaf people access information more easily. Thereby improving their lives. The project was born and developed by DTU university students. The project will be included in the scientific research competition at Duy Tan University.
 
-## Giới Thiệu
+## Table of content
 
-Đưa ra một cái nhìn tổng quan chi tiết hơn về dự án. Bạn có thể bao gồm các hình ảnh, sơ đồ hoặc video giới thiệu.
+- [Introduction](#introduction)
+- [Installation](#installation)
+- [Usage](#usage)
 
-## Cài Đặt
+## Introduction
 
-Hướng dẫn từng bước để cài đặt và thiết lập môi trường cho dự án của bạn. Đảm bảo rằng bạn bao gồm tất cả các yêu cầu và các bước cụ thể.
+**Vietnamese Speech to Sign Language** was born to help deaf people access information more easily. Thereby improving their lives. The project was born and developed by DTU university students. The project will be included in the scientific research competition at Duy Tan University.
+
+## Installation
 
 ```bash
+# Create python env
+python3 -m venv .env
+
 # Clone repository
-git clone https://github.com/username/repository.git
+git clone https://github.com/TrH203/Vietnamese-Speech-to-Sign-Language
 
 # Điều hướng vào thư mục dự án
-cd repository
+cd Vietnamese-Speech-to-Sign-Language
+
+# Activation venv
+source ../.env/bin/activate
 
 # Cài đặt các thư viện phụ thuộc
-npm install
+
 
 ```
 
-### Hướng dẫn Tùy Chỉnh
-
-- **Tên Dự Án:** Thay thế bằng tên dự án của bạn.
-- **Badges:** Tùy chỉnh các badges phù hợp với trạng thái build, giấy phép, và số lượng contributors của dự án bạn.
-- **Giới Thiệu, Cài Đặt, Sử Dụng, Tính Năng:** Cung cấp các thông tin chi tiết về dự án của bạn.
-- **Đóng Góp:** Điều chỉnh các bước đóng góp theo quy trình của dự án.
-- **Liên Hệ:** Cập nhật thông tin liên hệ của bạn.
-
-README.md là một phần quan trọng trong việc giới thiệu dự án của bạn và cung cấp hướng dẫn cho người dùng và nhà phát triển khác. Hãy đảm bảo rằng nó dễ đọc, dễ hiểu và đầy đủ thông tin.
+## Usage
