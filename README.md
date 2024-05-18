@@ -1,4 +1,4 @@
-# Vietnamesss Speech to Sign Language
+# Vietnamese Speech to Sign Language
 
 [![Development Status](https://img.shields.io/badge/status-in%20development-orange)]()
 [![Version](https://img.shields.io/badge/version-0.1.0-blue)]()
