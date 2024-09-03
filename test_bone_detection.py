@@ -122,8 +122,16 @@ print(hand1.shape)
 print("=============================")
 print(hand2.shape)
 
-np.savetxt("../output/hand1.csv",hand1,delimiter=',')
-np.savetxt("../output/hand2.csv",hand2,delimiter=',')
+# Nối 2 bàn tay lại với nhau:
+matrix3d = np.array([hand1,hand2])
+print(matrix3d.shape)
+
+from deployNoSQL import insert_intoDatabase
+
+# insert_intoDatabase("Xin chào mọi người", matrix3d)
+
+np.savetxt("/Users/trHien/Python/MyProjects/HuggingFace Workspace/Text_to_Sign/key_point_data/hand1.csv",hand1,delimiter=',')
+np.savetxt("/Users/trHien/Python/MyProjects/HuggingFace Workspace/Text_to_Sign/key_point_data/hand2.csv",hand2,delimiter=',')
 
 
 hands.close()
